@@ -32,10 +32,32 @@ This project uses a dataset from the World Bank's health database, available on 
 
 ### 2. Exploratory Data Analysis (EDA)
 - Visualized outliers and distributions using boxplots and histograms.
+
+![download](https://github.com/user-attachments/assets/32f82885-2449-4b22-b745-00eed690361a)
+![download](https://github.com/user-attachments/assets/b3e671ac-2f9c-4e59-bb3e-7738323b25af)
+
 - Calculated descriptive statistics with the .describe() method.
 - Created correlation heatmaps, identifying a significant correlation between life_expect and health_exp (0.24).
-- Plotted health metrics and trends across continents using bar charts and line plots.
-- Explored relationships between health expenditure and mortality metrics via scatter plots.
+
+![download](https://github.com/user-attachments/assets/550b5666-d9dd-48c7-a821-b212aa443e9a)
+
+- Plotted health expenditure as a percentage of GDP distribution across continents.
+
+![download](https://github.com/user-attachments/assets/ab48415b-61fb-4fa4-91b2-617ee0f1a09d)
+
+- Plotted health metrics and trends across continents using bar charts.
+
+![download](https://github.com/user-attachments/assets/e2ee8a7d-da84-4e92-8a3a-174ffb956993)
+
+- Plotted moratlity rate across continents using bar charts.
+
+![download](https://github.com/user-attachments/assets/3b2ff671-a9c6-45b4-b3b3-b82842e604d0)
+
+- Explored relationships between health expenditure and mortality metrics and diseases incidence via scatter plots.
+
+![download](https://github.com/user-attachments/assets/de32b278-d884-452f-96d0-a4416a849050)
+
+![download](https://github.com/user-attachments/assets/e0d73449-386b-4cc6-aa66-6ebd686a10a0)
 
 ### 3. Customer Segmentation
 - **Segmentation Approach**: Used DBSCAN clustering, achieving a silhouette score of 0.5, outperforming other methods like K-means and Agglomerative Clustering.
@@ -44,6 +66,8 @@ This project uses a dataset from the World Bank's health database, available on 
 #### Customer Profiles:
 - **Outliers**: Countries with extreme health expenditure or life expectancy rates, such as Angola, Malawi (low expenditure), and Nauru (high expenditure).
 - **Healthy & Wealthy**: Countries with similar health expenditure patterns and life expectancy rates.
+
+![download](https://github.com/user-attachments/assets/91c9842f-e1e8-4ae2-8a91-7f31e67adb1e)
 
 ### 4. Model Training
 - The dataset was split into training (80%) and testing (20%) sets.
