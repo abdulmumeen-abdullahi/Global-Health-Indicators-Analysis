@@ -10,7 +10,11 @@ This project aims to address these issues by:
 The project supports policymakers, researchers, and organizations in identifying critical areas for intervention, optimizing healthcare investments, and fostering equitable health outcomes globally.
 
 ## Data Used
-This project uses a dataset from the World Bank's health database, available on [Kaggle](https://www.kaggle.com/datasets/bushraqurban/world-health-indicators-dataset). The dataset includes:
+This project uses a dataset from the World Bank's health database, available on [Kaggle](https://www.kaggle.com/datasets/bushraqurban/world-health-indicators-dataset).
+
+![Screenshot (69)](https://github.com/user-attachments/assets/66c5321d-a752-4410-9908-4557d7fb95c5)
+
+The dataset includes:
 - country: The name of the country.
 - country_code: ISO country code.
 - year: Reporting year.
@@ -49,15 +53,26 @@ This project uses a dataset from the World Bank's health database, available on 
 
 ![download](https://github.com/user-attachments/assets/e2ee8a7d-da84-4e92-8a3a-174ffb956993)
 
-- Plotted moratlity rate across continents using bar charts.
+- Plotted moratlity rate and trend across continents using bar charts and line plot.
 
 ![download](https://github.com/user-attachments/assets/3b2ff671-a9c6-45b4-b3b3-b82842e604d0)
+
+![download](https://github.com/user-attachments/assets/1bc25d25-da48-4f2b-afd1-b09fe00f9cd0)
 
 - Explored relationships between health expenditure and mortality metrics and diseases incidence via scatter plots.
 
 ![download](https://github.com/user-attachments/assets/de32b278-d884-452f-96d0-a4416a849050)
 
 ![download](https://github.com/user-attachments/assets/e0d73449-386b-4cc6-aa66-6ebd686a10a0)
+
+- Explored relationships between HIV Prevalence and Incidence of Tuberculosis via scatter plots.
+
+![download](https://github.com/user-attachments/assets/c8a02c84-a5da-4ff8-b213-40ea7b7c3a44)
+
+- Explored relationships between Prevalence of Undernourishment and Incidence of Tuberculosis via scatter plots.
+
+![download](https://github.com/user-attachments/assets/01a52aba-3912-42b9-9dc1-d0e3f9b2e966)
+
 
 ### 3. Customer Segmentation
 - **Segmentation Approach**: Used DBSCAN clustering, achieving a silhouette score of 0.5, outperforming other methods like K-means and Agglomerative Clustering.
@@ -68,6 +83,8 @@ This project uses a dataset from the World Bank's health database, available on 
 - **Healthy & Wealthy**: Countries with similar health expenditure patterns and life expectancy rates.
 
 ![download](https://github.com/user-attachments/assets/91c9842f-e1e8-4ae2-8a91-7f31e67adb1e)
+
+![download](https://github.com/user-attachments/assets/038fc033-dfc0-45f7-890f-41e17956cb74)
 
 ### 4. Model Training
 - The dataset was split into training (80%) and testing (20%) sets.
